@@ -132,11 +132,10 @@ The values under the 1Ha reference, means the quantity of land per country neede
 <table>
 <tbody>
 <tr style='background-color:white'><td style="text-align:justify; font-size:14px; line-height: 1.5em">Let's further specified the geographics regions. They're pretty similar to the 'Continents' division, except that the American continent is divided in two regions, North and South America; being the south limit after and including Colombia.
-    
 <br>On the barplot, Europe and South America are the regions that have more than half of their countries with enough HpF (table 2). And the region that has less countries (in proportion) under the Perm_ind is Asia.</td>
 <td><img src="images/world_map.png" alt="world_map"  width="2400px" heigth="400px"/></td></tr>
 </tbody>
-/table>
+</table>
 
 The next stacked barplot will help us to see the percentage of countries related to the Perm_ind, divided by Geographic Region. 
 
