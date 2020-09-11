@@ -107,12 +107,14 @@ Let’s see how is this distribution per country/region.
     
 
 
-In the left histogram it is showed that are 151 countries whose population is at maximum 1% of the world population (doesn't mean that the distribution is uniform in this 151 countries). Hence, there are just 19 countries that are heavily populated in comparison (table I for reference, anex.)
+In the left histogram it is showed that are 151 countries whose population is at maximum 1% of the world population (doesn't mean that the distribution is uniform in this 151 countries). Hence, there are just 19 countries that are heavily populated in comparison.
 
-Analogously, the right histogram shows the CL distribution per country. The rough numbers show that 146 countries have at maximum 1 Hectare per every 3 families. In general numbers, this is 2/3 less that the minimun needs (for the Perm_indicator). Like in the left histogram, this distribution is not steady in this red bar of 146 countries.
+The Population density is a measurement of population per unit area. At the second histogram (right side), it's shown the population density per Cultivable Land (CL) per unit area. Specifically, it's shown the count of countries per CL density. 
+If the reference number is 1Ha per family, as this indicator grows over 1, the CL land is not enought for the theory requirements; so, the best situation for every country is to have less or iqual that 1 family per CL. Hence, there are 63 countries in the world has at max 1 family per CL in Hectare, this are 37% of the world countries.
 
-If we zoom in the 146 countries (down histogram), we see that just 63 countries in the world are under the limit of the Perm_ind: at maximum 1 family per Hectare. In terms of percentage, this means that just the 37% have the minimum land needed to satisfy their nutritional needs, according to the Permaculture theory.
+If we zoom in the countries (down histogram), we see that just 63 countries in the world are under the limit of the Perm_ind. Shown in percentage, the 70% of the world countries has between 1 and two families per Ha, the 80% around 2.5Ha, and the 90% just over 5 CL density.
 
+There are 
 <img src="images/hist_dens_CL.png" alt="hist_dens_CL" title="hist_dens_CL"/>
 
 Finally, it's exposed the CL distribution per geographic region and per country.
@@ -122,7 +124,7 @@ In the next graphic, countries per region are showed through a barplot. For each
 All the countries that are over the reference, have 1 or more Ha per family. This means, for example, South Sudan (S.Sudan, bars in light blue first to the left) has a bit more than 4 Ha per family; Niger and Russia are over the 3.
 
 Additionally,  a small square per region is added with two numbers. This is the quantity of countries over (up-arrow) and under (down-arrow) this reference, per region.
-<img src="images/ha_ref2.png" alt="ha_ref2" title="ha_ref2"/>
+<img src="images/ha_ref.png" alt="ha_ref" title="ha_ref"/>
 
 As it's seen in this last histogram, there are 63 countries over the reference. The higher value is in Oceania by Australia, that has almost 8 HpF; followed by Kasakhstan with a bit more than 6 HpF. As we can see, there is no regular distribution by geographic region.
 
