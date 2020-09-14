@@ -30,13 +30,9 @@
 Table 1. Lands division.
 <table>
 <tbody style="border: 0px">
-<tr><td><img src="images/desc_table.png" alt="desc_table" width='2000px', height='280px'/>
-<a href="http://www.fao.org/ag/agn/nutrition/Indicatorsfiles/Agriculture.pdf">Refence of this table and<a href="code_images/desc_table.ipynb"> it's code</a>
-</td><td>Graphically, the distribution of this lands previously classified is showed in percentage at the image below<a href="code_images/squari_dist.ipynb">(code of the image)</a>:<img src="images/squari_dist.png" alt="squari_dist" title="title"/></td></tr>
+<tr><td><img src="images/desc_table.png" alt="desc_table" width='2000px', height='280px'/><a href="http://www.fao.org/ag/agn/nutrition/Indicatorsfiles/Agriculture.pdf">Refence of this table and<a href="code_images/desc_table.ipynb"> it's code</a></td><td>Graphically, the distribution of this lands previously classified is showed in percentage at the image below<a href="code_images/squari_dist.ipynb" target="_blank">(code of the image)</a>:<img src="images/squari_dist.png" alt="squari_dist" title="title"/></td></tr>
 </tbody>
 </table>
-
-
 
 
 As shown, the less proportions of lands are validated (in statistics) for planting or pasture purposes: AL (Arable Lands) and PC (Permanent Crops); and a significant part of the land is already classified as FC (Forrest Cover) and IB (Important sites for terrestrial biodiversity protected). These last two could ensure the protection of the natural water sources and the variety of living species.
@@ -44,7 +40,7 @@ As shown, the less proportions of lands are validated (in statistics) for planti
 
 - **Theories**
 
-There are theories that estimate the quantity of land used/needed (to meet their nutritional needs) per habitant, as is summarized in this table <a href="code_images/org_table.ipynb">(code of the table)</a>:
+There are theories that estimate the quantity of land used/needed (to meet their nutritional needs) per habitant, as is summarized in this table <a href="code_images/org_table.ipynb" target="_blank">(code of the table)</a>:
 
 <table>
 <tbody style="border: 0px">
@@ -89,7 +85,7 @@ But is this regular in the whole world? We'll know the distribution of the land 
 
 Because every country has a different land area, the best way to compare this indicator between differents countries is to use the relative value of cultivable lands(CL); this means, the percentage of CL per country (CL%).
          
-This percentage in the world is show as follows <a href="code_images/CL.ipynb">(code from the image)</a>:
+This percentage in the world is show as follows <a href="code_images/CL.ipynb" target="_blank">(code from the image)</a>:
 <img src="images/CL.png" alt="CL" title="CL"/>
     
     
@@ -118,7 +114,7 @@ If the reference number is 1Ha per family, as this indicator grows over 1, the C
 
 If we zoom in the countries (down histogram), we see that just 63 countries in the world are under the limit of the Perm_ind. Shown in percentage, the 70% of the world countries has between 1 and two families per Ha, the 80% around 2.5Ha, and the 90% just over 5 CL density.
 
-<a href="code_images/hist_dens_CL.ipynb">(code from the histogram below)</a>
+<a href="code_images/hist_dens_CL.ipynb" target="_blank">(code from the histogram below)</a>
 <img src="images/hist_dens_CL.png" alt="hist_dens_CL" title="hist_dens_CL"/>
 
 Finally, it's exposed the HpF referenced to the Per_indicator. This means, the Cultivable Lands per Family, referenced to 1Ha, distributed per geographic region and per country. 
@@ -131,7 +127,7 @@ To show the HpF, countries per region are showed through a barplot. For each reg
 
 All the countries that are over the reference, have 1 or more Ha per family. This means, for example, South Sudan (S.Sudan, bars in light blue first to the left) has a bit more than 4 Ha per family; Niger and Russia are over the 3.
 
-Additionally,  a small square per region is added with two numbers. This is the quantity of countries over (up-arrow) and under (down-arrow) this reference, per region <a href="code_images/ha_ref.ipynb">(code from the barplot below)</a>.
+Additionally,  a small square per region is added with two numbers. This is the quantity of countries over (up-arrow) and under (down-arrow) this reference, per region <a href="code_images/ha_ref.ipynb" target="_blank">(code from the barplot below)</a>.
 <img src="images/ha_ref.png" alt="ha_ref" title="ha_ref"/>
 
 As it's seen in this last histogram, there are 63 countries over the reference. The higher value is in Oceania by Australia, that has almost 8HpF; followed by Kasakhstan with a bit more than 6HpF. As we can see, there is no regular distribution by geographic region.
@@ -142,12 +138,12 @@ The values under the 1Ha reference, means the quantity of land per country neede
 <table>
 <tbody>
 <tr style='background-color:white'><td style="text-align:justify; font-size:14px; line-height: 1.5em">Let's further specified the geographics regions. They're pretty similar to the 'Continents' division, except that the American continent is divided in two regions, North and South America; being the south limit after and including Colombia.
-<br>On the barplot, Europe and South America are the regions that have more than half of their countries with enough HpF (table below). And the region that has less countries (in proportion) under the Perm_ind is Asia.<a href="code_images/world_map.ipynb">(code from the map)</a></td>
+<br>On the barplot, Europe and South America are the regions that have more than half of their countries with enough HpF (table below). And the region that has less countries (in proportion) under the Perm_ind is Asia.<a href="code_images/world_map.ipynb" target="_blank">(code from the map)</a></td>
 <td><img src="images/world_map.png" alt="world_map"  width="2400px" heigth="400px"/></td></tr>
 </tbody>
 </table>
 
-The next stacked barplot will help us to see the percentage of countries related to the Perm_ind, divided by Geographic Region. <a href="code_images/HpF_bars.ipynb">(code from the table below)</a>
+The next stacked barplot will help us to see the percentage of countries related to the Perm_ind, divided by Geographic Region. <a href="code_images/HpF_bars.ipynb" target="_blank">(code from the table below)</a>
 
 <table>
 <tbody>
