@@ -107,10 +107,10 @@ Let’s see how is this distribution per country/region. <a href="code_images/hi
     
 
 
-In the left histogram it is showed that are 151 countries whose population is at maximum 1% of the world population (doesn't mean that the distribution is uniform in this 151 countries). Hence, there are just 19 countries that are heavily populated in comparison (from 2% to 18%).
+In the left histogram it is showed that are 150 countries whose population is at maximum 1% of the world population (doesn't mean that the distribution is uniform in this 151 countries). Hence, there are just 19 countries that are heavily populated (from 2% to 18%) in comparison.
 
 The Population density is a measurement of population per unit area. At the second histogram (right side), it's shown the population density per Cultivable Land (CL) per unit area. Specifically, it's shown the count of countries per CL density. 
-If the reference number is 1Ha per family, as this indicator grows over 1, the CL land is not enought for the theory requirements; so, the best situation for every country is to have less or iqual that 1 family per CL. Hence, there are 63 countries in the world has at max 1 family per CL in Hectare, this are 37% of the world countries.
+If the reference number is 1Ha per family, as this indicator grows over 1, the CL land is not enought for the theory requirements; so, the best situation for every country is to have less or iqual that 1 family per CL. Hence, there are 62 countries in the world has at max 1 family per CL in Hectare, this are 37% of the world countries.
 
 If we zoom in the countries (down histogram), we see that just 63 countries in the world are under the limit of the Perm_ind. Shown in percentage, the 70% of the world countries has between 1 and two families per Ha, the 80% around 2.5Ha, and the 90% just over 5 CL density.
 
