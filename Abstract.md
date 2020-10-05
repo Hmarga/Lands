@@ -73,9 +73,6 @@ For this, we defined three main indicators:
 | 2 *Permaculture Indicator (Perm_ind)*| Minimun amount of land needed <br>per family. **It's a fix value.**|<img src="images/PI.png" alt="PI" title="PI" width='40%' height='40%'/>|Ha (acronym for Hectare),<br> and it's a constant fixed reference value.|
 | 3 *Hectares per Family (HpF)*| Calculated CL land per family |<img src="https://latex.codecogs.com/svg.latex?\Large&space;HpF=\frac{CL}{Family}" title="HpF" width='60%' height='60%'/>|Where <br>CL: Cultivables Lands. <br>Family: generalized to 4 people group|
 
-
-
-
 - **The facts**  
     
 The data about population and geographic coordenates is taken from the [geopandas](https://geopandas.org/) library wich is already classified by geographic region and country. <br>The data about land distributions was taken and processed from the United Nations statistics database [UNstatistics](https://data.un.org/).
@@ -206,7 +203,7 @@ The next stacked barplot will help us to see the percentage of countries related
 
 <table>
 <tbody>
-<tr style='background-color:white'><td><img src="images/HpF_bars_w.png" alt="HpF_bars_w" width='3000px' height='1000px'/></td><td style="text-align:justify; font-size:14px; line-height: 1.5em">The green bars represents the percentage of countries that has more than 1 HpF; in orange, less. As it's saw, most of them has less than the Permaculture requirement; there is just one region that is over to this value: North America. Europe & Central Asia and Sub-Saharan Africa has almost half of this countries over, followed in descending order by Latin America & Caribbean, East Asia & Pacific, Middle East & North Africa and finally South Asia.
+<tr style='background-color:white'><td><img src="images/HpF_bars_w.png" alt="HpF_bars_w" width=40% height=40%/></td><td style="text-align:justify; font-size:14px; line-height: 1.5em">The green bars represents the percentage of countries that has more than 1 HpF; in orange, less. As it's saw, most of them has less than the Permaculture requirement; there is just one region that is over to this value: North America. Europe & Central Asia and Sub-Saharan Africa has almost half of this countries over, followed in descending order by Latin America & Caribbean, East Asia & Pacific, Middle East & North Africa and finally South Asia.
 
 <br>
 
