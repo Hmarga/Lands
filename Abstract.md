@@ -203,7 +203,7 @@ The next stacked barplot will help us to see the percentage of countries related
 
 <table>
 <tbody>
-<tr style='background-color:white'><td><img src="images/HpF_bars_w.png" alt="HpF_bars_w" width=40% height=40%/></td><td style="text-align:justify; font-size:14px; line-height: 1.5em">The green bars represents the percentage of countries that has more than 1 HpF; in orange, less. As it's saw, most of them has less than the Permaculture requirement; there is just one region that is over to this value: North America. Europe & Central Asia and Sub-Saharan Africa has almost half of this countries over, followed in descending order by Latin America & Caribbean, East Asia & Pacific, Middle East & North Africa and finally South Asia.
+<tr style='background-color:white'><td><img src="images/HpF_bars_w.png" alt="HpF_bars_w" width='1500px' height='200px'/></td><td style="text-align:justify; font-size:14px; line-height: 1.5em">The green bars represents the percentage of countries that has more than 1 HpF; in orange, less. As it's saw, most of them has less than the Permaculture requirement; there is just one region that is over to this value: North America. Europe & Central Asia and Sub-Saharan Africa has almost half of this countries over, followed in descending order by Latin America & Caribbean, East Asia & Pacific, Middle East & North Africa and finally South Asia.
 
 <br>
 
@@ -211,7 +211,7 @@ The next stacked barplot will help us to see the percentage of countries related
     
     - How much land suitable for cultivation (CL) do we actually have in the Earth per human being?: 0.8 Hectare per Family.
     
-    - Making a huge and general calcule, the world needs 0.13 HpF to reach the minimun ammount of CL according to the chossen theory. This is equivalent to <img src="https://latex.codecogs.com/svg.latex?\Large&space;235^{6}Ha\:=0.2^{9}Ha" width="40%" height="40%" title="need"/>. If we know that the total earth land is <img src="https://latex.codecogs.com/svg.latex?\Large&space;1.3^{10}Ha" width="15%" height="15%" title="earthsup"/> This missing value represent just the <code style="color:red">1.8%</code> of the earth land surface.</td>
+    - Making a huge and general calcule, the world needs 0.13 HpF to reach the minimun ammount of CL according to the chossen theory. This is equivalent to <img src="https://latex.codecogs.com/svg.latex?\Large&space;235^{6}Ha\:=0.2^{9}Ha" width="15%" height="15%" title="need"/>. If we know that the total earth land is <img src="https://latex.codecogs.com/svg.latex?\Large&space;1.3^{10}Ha" width="10%" height="10%" title="earthsup"/> This missing value represent just the <code style="color:red">1.8%</code> of the earth land surface.</td>
 </tr>
 </tbody>
 </table>
