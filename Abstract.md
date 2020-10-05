@@ -203,7 +203,7 @@ The next stacked barplot will help us to see the percentage of countries related
 
 <table>
 <tbody>
-<tr style='background-color:white'><td><img src="images/HpF_bars_w.png" alt="HpF_bars_w" width='1500px' height='200px'/></td><td style="text-align:justify; font-size:14px; line-height: 1.5em">The green bars represents the percentage of countries that has more than 1 HpF; in orange, less. As it's saw, most of them has less than the Permaculture requirement; there is just one region that is over to this value: North America. Europe & Central Asia and Sub-Saharan Africa has almost half of this countries over, followed in descending order by Latin America & Caribbean, East Asia & Pacific, Middle East & North Africa and finally South Asia.
+<tr style='background-color:white'><td><img src="images/HpF_bars_w.png" alt="HpF_bars_w" width='1800px' height='250px'/></td><td style="text-align:justify; font-size:14px; line-height: 1.5em">The green bars represents the percentage of countries that has more than 1 HpF; in orange, less. As it's saw, most of them has less than the Permaculture requirement; there is just one region that is over to this value: North America. Europe & Central Asia and Sub-Saharan Africa has almost half of this countries over, followed in descending order by Latin America & Caribbean, East Asia & Pacific, Middle East & North Africa and finally South Asia.
 
 <br>
 
