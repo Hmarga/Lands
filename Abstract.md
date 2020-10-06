@@ -48,10 +48,11 @@ Figure I. Percentage Land Distribution
 
 - **Theories**
 
-There are theories that estimate the quantity of land used/needed (to meet their nutritional needs) per habitant, as is summarized in this table <a href="code_images/org_table.ipynb" target="_blank">(code of the table)</a>:
+There are theories that estimate the quantity of land used/needed (to meet their nutritional needs) per habitant, as is summarized in this table :
 
 Table 2. Land use theories.
 <br><a href="https://www.primalsurvivor.net/much-land-need-self-sufficient/">Refence of this table</a>
+<br><a href="code_images/org_table.ipynb" target="_blank">(code of the table)</a>
 <table>
 <tbody style="border: 0px">
 <tr><td><img src="images/org_table.png" alt="org_table" width='2500px' height='300px'%/> 
@@ -227,7 +228,7 @@ The next stacked barplot will help us to see the percentage of countries related
 <tbody>
 <tr style='background-color:white'><td style="text-align:justify; font-size:14px; line-height: 1.5em">Figure IIX. Porcentual distribution of HpF per region.
 <br><a href="code_images/HpF_bars_w.ipynb" target="_blank">(code from the table below)</a>
-<img src="images/HpF_bars_w.png" alt="HpF_bars_w" width='3500px' height='400px'/></td><td style="text-align:justify; font-size:14px; line-height: 1.5em">The green bars represents the percentage of countries that has more than 1 HpF; in orange, less. As it's saw, most of them has less than the Permaculture requirement; there is just one region that is over to this value: North America. Europe & Central Asia and Sub-Saharan Africa has almost half of this countries over, followed in descending order by Latin America & Caribbean, East Asia & Pacific, Middle East & North Africa and finally South Asia.
+<img src="images/HpF_bars_w.png" alt="HpF_bars_w" width='4000px' height='400px'/></td><td style="text-align:justify; font-size:14px; line-height: 1.5em">The green bars represents the percentage of countries that has more than 1 HpF; in orange, less. As it's saw, most of them has less than the Permaculture requirement; there is just one region that is over to this value: North America. Europe & Central Asia and Sub-Saharan Africa has almost half of this countries over, followed in descending order by Latin America & Caribbean, East Asia & Pacific, Middle East & North Africa and finally South Asia.
 
 <br>
 
