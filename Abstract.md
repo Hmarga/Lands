@@ -32,14 +32,14 @@
 
 Table 1. Lands classification.
 <br><a href="http://www.fao.org/ag/agn/nutrition/Indicatorsfiles/Agriculture.pdf">Refence of this table and<a href="code_images/desc_table.ipynb"> it's code</a>
-![desc_table.png](attachment:desc_table.png)
+<img src="images/desc_table.png" alt="desc_table" title="title" width='1500px' height='300px'/>
 
 
 Figure I. Percentage Land Distribution
 <br><a href="code_images/squari_dist.ipynb" target="_blank">(code of the image)</a>
     
 <table>
-<tbody style="border: 0px"><tr><td font-size='2em'><img src="images/squari_dist.png" alt="squari_dist" title="title" width='1500px' height='150px'/></td><td style="font-size:13px; line-height: 1.6; text-align: justify;">Graphically, the distribution of this lands previously classified is showed in percentage (left graphic). 
+<tbody style="border: 0px"><tr><td font-size='2em'><img src="images/squari_dist.png" alt="squari_dist" title="title" width='1500px' height='300px'/></td><td style="font-size:13px; line-height: 1.6; text-align: justify;">Graphically, the distribution of this lands previously classified is showed in percentage (left graphic). 
     
 <br>As shown, AL plus PC represent the 12,3 % of the world land distribution; while the FC and IB represent the 65.7%. 
 
@@ -227,7 +227,7 @@ The next stacked barplot will help us to see the percentage of countries related
 <tbody>
 <tr style='background-color:white'><td style="text-align:justify; font-size:14px; line-height: 1.5em">Figure IIX. Porcentual distribution of HpF per region.
 <br><a href="code_images/HpF_bars_w.ipynb" target="_blank">(code from the table below)</a>
-<img src="images/HpF_bars_w.png" alt="HpF_bars_w" width='3000px' height='400px'/></td><td style="text-align:justify; font-size:14px; line-height: 1.5em">The green bars represents the percentage of countries that has more than 1 HpF; in orange, less. As it's saw, most of them has less than the Permaculture requirement; there is just one region that is over to this value: North America. Europe & Central Asia and Sub-Saharan Africa has almost half of this countries over, followed in descending order by Latin America & Caribbean, East Asia & Pacific, Middle East & North Africa and finally South Asia.
+<img src="images/HpF_bars_w.png" alt="HpF_bars_w" width='3500px' height='400px'/></td><td style="text-align:justify; font-size:14px; line-height: 1.5em">The green bars represents the percentage of countries that has more than 1 HpF; in orange, less. As it's saw, most of them has less than the Permaculture requirement; there is just one region that is over to this value: North America. Europe & Central Asia and Sub-Saharan Africa has almost half of this countries over, followed in descending order by Latin America & Caribbean, East Asia & Pacific, Middle East & North Africa and finally South Asia.
 
 <br>
 
