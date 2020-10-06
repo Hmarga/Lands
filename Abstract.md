@@ -234,10 +234,11 @@ The next stacked barplot will help us to see the percentage of countries related
 
 - <b>Conclusions</b>:
     
-    - How much land suitable for cultivation (CL) do we actually have in the Earth per human being?: 0.8 Hectare per Family.
+    - How much land suitable for cultivation (CL) do we actually have in the Earth per human being?: 
+        - 0.8 Hectare per Family.
     
-    - Making a huge and general calcule, the world needs 0.13 HpF to reach the minimun ammount of CL according to the chossen theory. This is equivalent to <img src="https://latex.codecogs.com/svg.latex?\Large&space;235^{6}Ha\:=0.2^{9}Ha" width="15%" height="15%" title="need"/>
-    - If we know that the total earth land is <img src="https://latex.codecogs.com/svg.latex?\Large&space;1.3^{10}Ha" width="10%" height="10%" title="earthsup"/> This missing value represent just the <code style="color:red">1.8%</code> of the earth land surface.</td>
+    - Making a huge and general calcule, the world needs 0.13 HpF to reach the minimun ammount of CL according to the chossen theory. This is equivalent to <img src="https://latex.codecogs.com/svg.latex?\Large&space;235^{6}Ha\:=0.2^{9}Ha" width="25%" height="25%" title="need"/>
+    - If we know that the total earth land is <img src="https://latex.codecogs.com/svg.latex?\Large&space;1.3^{10}Ha" width="15%" height="15%" title="earthsup"/> This missing value represent just the <code style="color:red">1.8%</code> of the earth land surface.</td>
 </tr>
 </tbody>
 </table>
