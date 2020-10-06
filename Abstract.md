@@ -31,29 +31,36 @@
 
 
 Table 1. Lands classification.
+<br><a href="http://www.fao.org/ag/agn/nutrition/Indicatorsfiles/Agriculture.pdf">Refence of this table and<a href="code_images/desc_table.ipynb"> it's code</a>
+![desc_table.png](attachment:desc_table.png)
+
+
+Figure I. Percentage Land Distribution
+<br><a href="code_images/squari_dist.ipynb" target="_blank">(code of the image)</a>
+    
 <table>
-<tbody style="border: 0px">
-<tr><td><img src="images/desc_table.png" alt="desc_table" width='2000px', height='280px'/><a href="http://www.fao.org/ag/agn/nutrition/Indicatorsfiles/Agriculture.pdf">Refence of this table and<a href="code_images/desc_table.ipynb"> it's code</a></td><td>Graphically, the distribution of this lands previously classified is showed in percentage at the image below<a href="code_images/squari_dist.ipynb" target="_blank">(code of the image)</a>:<img src="images/squari_dist.png" alt="squari_dist" title="title"/></td></tr>
-</tbody>
-</table>
+<tbody style="border: 0px"><tr><td font-size='2em'><img src="images/squari_dist.png" alt="squari_dist" title="title" width='1500px' height='150px'/></td><td style="font-size:13px; line-height: 1.6; text-align: justify;">Graphically, the distribution of this lands previously classified is showed in percentage (left graphic). 
+    
+<br>As shown, AL plus PC represent the 12,3 % of the world land distribution; while the FC and IB represent the 65.7%. 
 
+<br>These last two could ensure the protection of natural water sources and the biodiversity within. As evidenced, there is 22% of the land surface not classified in the records and that will be mentioned later.</td></tr></tbody></table>
 
-As shown on figure 1, AL and PC represent the 12,3 % of the world land distribution; 
-while the FC and IB represent the 65.7%. These last two could ensure the protection of natural water sources and the biodiversity within. As evidenced, there is 22% of the land surface not classified in the records and that will be mentioned later.
 
 - **Theories**
 
 There are theories that estimate the quantity of land used/needed (to meet their nutritional needs) per habitant, as is summarized in this table <a href="code_images/org_table.ipynb" target="_blank">(code of the table)</a>:
 
+Table 2. Land use theories.
+<br><a href="https://www.primalsurvivor.net/much-land-need-self-sufficient/">Refence of this table</a>
 <table>
 <tbody style="border: 0px">
-<tr><td>Table 2. Land use theories.<img src="images/org_table.png" alt="org_table" width='2000px' height='300px'/><a href="https://www.primalsurvivor.net/much-land-need-self-sufficient/">Refence of this table</a>
+<tr><td><img src="images/org_table.png" alt="org_table" width='2500px' height='300px'%/> 
 </td>
-<td><div style='text-align:justify'>The <b>Permaculture Theory</b> was chosen for this study to analyze the land's capacity to regenerate for more efficient use.
+<td style="font-size:13px; line-height: 1.6; text-align: justify;"> The <b>Permaculture Theory</b> was chosen for this study to analyze the land's capacity to regenerate for more efficient use.
     
 <br>1(One) Hectare for a family of four means that this system is designed <b>to be performed by a group of persons</b>, not in an individual level. 
 There is a lot of information about it in internet that explain this technique,<a href="https://en.wikipedia.org/wiki/Permaculture"> this for example</a>
-</div></td></tr>
+</td></tr>
 </tbody>
 </table>
 
@@ -65,7 +72,8 @@ There is a lot of information about it in internet that explain this technique,<
 
 This mean, if we divide the quantity of Land suitable for cultivation and grazing, with the total world population, how much land do we have?
 
-For this, we defined three main indicators:
+For this, we defined three main indicators created for this study:
+<br>Table 3. Indicators.
 
 |Indicator|Meaning|Equation|Variables|
 |:----|:-----|:-----|:-----:|
@@ -80,7 +88,7 @@ The data about population and geographic coordenates is taken from the [geopanda
 
 In the next table, there are showed the previous indicators for the the whole world.
 
-Table 3. Indicators.
+Table 4. Indicator values.
     
 |About Population|About CL|Permaculture Indicator (Perm_ind)|
 |:--------:|:---------:|:---------:|
@@ -90,6 +98,8 @@ Table 3. Indicators.
 <b>CL% Distribution per country.</b>
 
 As it's predictable, this distribution varies for every world region and country. Since every country has a different land area, the best way to compare this indicator between differents countries is to use the relative value of cultivable lands(CL); this means, the percentage of CL per country (CL%), as is showed in the next map.<a href="code_images/CL.ipynb" target="_blank">(code from the image)</a>
+
+Figure II. World map of CL%.
 
 <img src="images/CL.png" alt="CL" title="CL"/>
     
@@ -108,7 +118,7 @@ An overall view show us that:
     
 <br>- Countries with large territory (like China, Canada or Brasil) are around <br>or under 20% of CL too.
 
-<br>- There is a huge region (Center of Africa, South of Europe and Est of Asia) <br>that has more countries with higher CL% values that the rest of the world, <br>highlighted with the blue ellipse.<a href="code_images/c_pie.ipynb" target="_blank">(code from the pie)</a></td><td><img src="images/c_pie.png" alt="c_pie" width="400px" heigth="100px"/></td></tr>
+<br>- There is a huge region (Center of Africa, South of Europe and Est of Asia) <br>that has more countries with higher CL% values that the rest of the world, <br>highlighted with the blue ellipse.<a href="code_images/country_pie.ipynb" target="_blank">(code from the pie)</a></td><td style="text-align:left; font-size:14px; line-height: 1.5em"><br>Figure III. Cumuled countries per range of CL%.<img src="images/c_pie.png" alt="c_pie" width="400px" heigth="100px"/></td></tr>
 </tbody>
 </table>
 
@@ -128,7 +138,11 @@ In equation mode:
 |<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{Family}{Total\:Land\:Area\:(LA)}" title="HpF" width='60%' height='60%'/> |<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{Family}{Cultivable\:Lands\:Area\:(CL)}" title="HpF" width='60%' height='60%'/> |
 
 
-Let’s see how is this distribution per country/region. <a href="code_images/hist_dens.ipynb">(code from the histograms below)</a>
+
+Let’s see how is this distribution per country/region.
+
+Figure IV. Density population and Density population repect CL.
+<br><a href="code_images/hist_dens.ipynb">(code from the histograms below)</a>
 
 <img src="images/hist_dens.png" alt="hist_dens" title="hist_dens"/>
     
@@ -149,7 +163,8 @@ Hence, for both histogram is taken that:
 
 If we zoom in the countries (down histogram of Family Density by CL), we see that from this 63 countries in the world that are under the limit of the Perm_ind: 
 
-<a href="code_images/hist_dens_CL.ipynb" target="_blank">(code from the histogram below)</a>
+Figure V. Density population of CL.
+<br><a href="code_images/hist_dens_CL.ipynb" target="_blank">(code from the histogram below)</a>
 <img src="images/hist_dens_CL.png" alt="hist_dens_CL" title="hist_dens_CL"/>
 
 It can be taken that:
@@ -168,6 +183,8 @@ Finally, it's exposed the HpF referenced to the Per_indicator. This means, the C
 
 
 For the netx charts, the Geografich Region division will be used. This division groups the countries in 8 regions:
+
+Figure VI. Regions World Map.
 <table>
 <tbody>
 <tr style='background-color:white'><td style="text-align:justify; font-size:14px; line-height: 1.5em">         
@@ -187,8 +204,12 @@ To show the HpF of every country per region, it's used barplot. For each region 
 
 All the countries that are over the reference, have 1 or more Ha per family. For example, Australia (bars in light blue first to the left) has a bit more than 8 Ha per family; Kazakhstan a bit more than 6 ,and Canada ans South Sudan (S. Sudhan) just over 5 and 4 respectively. 
 
-Additionally,  a small square per region is added with two numbers. This is the quantity of countries over (up-arrow) and under (down-arrow) this reference, per region <a href="code_images/ha_ref.ipynb" target="_blank">(code from the barplot below)</a>.
+Additionally,  a small square per region is added with two numbers. This is the quantity of countries over (up-arrow) and under (down-arrow) this reference, per region <a href="code_images/ha_ref_w.ipynb" target="_blank">(code from the barplot below)</a>.
+
+<br>Figure VII. Hectare per Family (HpF) per country.
+
 <img src="images/ha_ref_w.png" alt="ha_ref" title="ha_ref"/>
+
 
 Consider that the values under the 1Ha reference, means the quantity of land per country needed to reach the Perm_ind.
 
@@ -198,12 +219,15 @@ From this last histogram, it's noticed that:
 - The South Asia region has no countries over the 1 Ha reference.
 - The higher value is in Australia, from Est Asia and Pacific, that has almost 8HpF. This region has the most noticed difference between their countries.
 
-The next stacked barplot will help us to see the percentage of countries related to the Perm_ind, divided by Geographic Region. <a href="code_images/HpF_bars.ipynb" target="_blank">(code from the table below)</a>
+The next stacked barplot will help us to see the percentage of countries related to the Perm_ind, divided by Geographic Region.
+
 
 
 <table>
 <tbody>
-<tr style='background-color:white'><td><img src="images/HpF_bars_w.png" alt="HpF_bars_w" width='1800px' height='250px'/></td><td style="text-align:justify; font-size:14px; line-height: 1.5em">The green bars represents the percentage of countries that has more than 1 HpF; in orange, less. As it's saw, most of them has less than the Permaculture requirement; there is just one region that is over to this value: North America. Europe & Central Asia and Sub-Saharan Africa has almost half of this countries over, followed in descending order by Latin America & Caribbean, East Asia & Pacific, Middle East & North Africa and finally South Asia.
+<tr style='background-color:white'><td style="text-align:justify; font-size:14px; line-height: 1.5em">Figure IIX. Porcentual distribution of HpF per region.
+<br><a href="code_images/HpF_bars_w.ipynb" target="_blank">(code from the table below)</a>
+<img src="images/HpF_bars_w.png" alt="HpF_bars_w" width='3000px' height='400px'/></td><td style="text-align:justify; font-size:14px; line-height: 1.5em">The green bars represents the percentage of countries that has more than 1 HpF; in orange, less. As it's saw, most of them has less than the Permaculture requirement; there is just one region that is over to this value: North America. Europe & Central Asia and Sub-Saharan Africa has almost half of this countries over, followed in descending order by Latin America & Caribbean, East Asia & Pacific, Middle East & North Africa and finally South Asia.
 
 <br>
 
@@ -211,7 +235,8 @@ The next stacked barplot will help us to see the percentage of countries related
     
     - How much land suitable for cultivation (CL) do we actually have in the Earth per human being?: 0.8 Hectare per Family.
     
-    - Making a huge and general calcule, the world needs 0.13 HpF to reach the minimun ammount of CL according to the chossen theory. This is equivalent to <img src="https://latex.codecogs.com/svg.latex?\Large&space;235^{6}Ha\:=0.2^{9}Ha" width="15%" height="15%" title="need"/>. If we know that the total earth land is <img src="https://latex.codecogs.com/svg.latex?\Large&space;1.3^{10}Ha" width="10%" height="10%" title="earthsup"/> This missing value represent just the <code style="color:red">1.8%</code> of the earth land surface.</td>
+    - Making a huge and general calcule, the world needs 0.13 HpF to reach the minimun ammount of CL according to the chossen theory. This is equivalent to <img src="https://latex.codecogs.com/svg.latex?\Large&space;235^{6}Ha\:=0.2^{9}Ha" width="15%" height="15%" title="need"/>
+    - If we know that the total earth land is <img src="https://latex.codecogs.com/svg.latex?\Large&space;1.3^{10}Ha" width="10%" height="10%" title="earthsup"/> This missing value represent just the <code style="color:red">1.8%</code> of the earth land surface.</td>
 </tr>
 </tbody>
 </table>
