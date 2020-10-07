@@ -11,8 +11,7 @@
     - Facts
         - Cultivable Land (CL) Distribution per country.
         - Population Density and Cultivable Land Density.
-        - Hectare per Family and Perm_indicator per geographic region.
-        
+        - Hectare per Family and Perm_indicator per geographic region.       
     - Conclusions
   
 - **Objectives**
@@ -45,7 +44,6 @@ Figure I. Percentage Land Distribution
 
 <br>These last two could ensure the protection of natural water sources and the biodiversity within. As evidenced, there is 22% of the land surface not classified in the records and that will be mentioned later.</td></tr></tbody></table>
 
-
 - **Theories**
 
 There are theories that estimate the quantity of land used/needed (to meet their nutritional needs) per habitant, as is summarized in this table :
@@ -57,6 +55,7 @@ Table 2. Land use theories.
 <tbody style="border: 0px">
 <tr><td><img src="images/org_table.png" alt="org_table" width='2500px' height='300px'%/> 
 </td>
+
 <td style="font-size:13px; line-height: 1.6; text-align: justify;"> The <b>Permaculture Theory</b> was chosen for this study to analyze the land's capacity to regenerate for more efficient use.
     
 <br>1(One) Hectare for a family of four means that this system is designed <b>to be performed by a group of persons</b>, not in an individual level. 
@@ -69,7 +68,7 @@ There is a lot of information about it in internet that explain this technique,<
     
 ```diff
 - How much land suitable for cultivation (CL) do we actually have in the Earth per human being and how is it distributed?
-```    
+```
 
 This mean, if we divide the quantity of Land suitable for cultivation and grazing, with the total world population, how much land do we have?
 
@@ -82,12 +81,12 @@ For this, we defined three main indicators created for this study:
 | 2 *Permaculture Indicator (Perm_ind)*| Minimun amount of land needed <br>per family. **It's a fix value.**|<img src="images/PI.png" alt="PI" title="PI" width='40%' height='40%'/>|Ha (acronym for Hectare),<br> and it's a constant fixed reference value.|
 | 3 *Hectares per Family (HpF)*| Calculated CL land per family |<img src="https://latex.codecogs.com/svg.latex?\Large&space;HpF=\frac{CL}{Family}" title="HpF" width='60%' height='60%'/>|Where <br>CL: Cultivables Lands. <br>Family: group of 4 people.|
 
-- **The facts**  
+- **The facts**
     
 The data about population and geographic coordenates is taken from the [geopandas](https://geopandas.org/) library wich is already classified by geographic region and country. <br>The data about land distributions was taken and processed from the United Nations statistics database [UNstatistics](https://data.un.org/).
 <br>And the data of the geographic world regions is taken from the [Cartopy pakages](https://scitools.org.uk/cartopy/docs/latest/).
 
-In the next table, there are showed the previous indicators for the whole world.
+In the next table, there are shown the previous indicators for the whole world.
 
 Table 4. Indicator values.
     
@@ -111,10 +110,9 @@ Going into details, the darkers ones are Bangladesh, Moldova and Burundi (66.02%
     
 An overall view show us that:
 
-
 <table>
 <tbody>
-<tr style='background-color:white'><td style="text-align:justify; font-size:14px; line-height: 1.5em">         
+<tr style='background-color:white'><td style="text-align:justify; font-size:14px; line-height: 1.5em">
 <br>- The big part of the countries are under 20% of the CL.(See the pie diagram to the right)
     
 <br>- Countries with large territory (like China, Canada or Brasil) are around <br>or under 20% of CL too.
@@ -138,8 +136,6 @@ In equation mode:
 |:----:|:-----:|
 |<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{Family}{Total\:Land\:Area\:(LA)}" title="HpF" width='60%' height='60%'/> |<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{Family}{Cultivable\:Lands\:Area\:(CL)}" title="HpF" width='60%' height='60%'/> |
 
-
-
 Let’s see how is this distribution per country/region.
 
 Figure IV. Density population and Density population respect to CL.
@@ -147,8 +143,6 @@ Figure IV. Density population and Density population respect to CL.
 
 <img src="images/hist_dens.png" alt="hist_dens" title="hist_dens"/>
     
-
-
 In both histograms, there is a green line at the Y-axis level of 1.
 
 The Y-axis represents the Family density per Ha, and the X-axis the number of accumulate countries; then, the purple numbers over the bars are the number of countries for an specific 'y' range.
@@ -185,9 +179,10 @@ Next is exposed the HpF referenced to the Perm_indicator. This means, the Cultiv
 For the next charts, the Geographic Region division will be used. This division groups the countries in 8 regions:
 
 Figure VI. Regions World Map.
+
 <table>
 <tbody>
-<tr style='background-color:white'><td style="text-align:justify; font-size:14px; line-height: 1.5em">         
+<tr style='background-color:white'><td style="text-align:justify; font-size:14px; line-height: 1.5em">
 <br>- Middle East & North Africa
 <br>- Sub-Saharan Africa 
 <br>- Latin America & Caribbean
@@ -221,13 +216,11 @@ From this last histogram, it's noticed that:
 The next stacked barplot will help us see the percentage of countries related to the Perm_ind, divided by Geographic Region.
 
 
-
 <table>
 <tbody>
 <tr style='background-color:white'><td style="text-align:justify; font-size:14px; line-height: 1.5em">Figure IIX. Percentage distribution of HpF per region.
 <br><a href="code_images/HpF_bars_w.ipynb" target="_blank">(code of the table below)</a>
 <img src="images/HpF_bars_w.png" alt="HpF_bars_w" width='4000px' height='400px'/></td><td style="text-align:justify; font-size:14px; line-height: 1.5em">The green bars represents the percentage of countries that has more than 1 HpF; in orange, less. As it is visible, most of them has less than the Permaculture requirement; there is just one region that is over to this value: North America. Europe & Central Asia and Sub-Saharan Africa has almost half of this countries over, followed in descending order by Latin America & Caribbean, East Asia & Pacific, Middle East & North Africa and finally South Asia.
-
 <br>
 
 - <b>Conclusions</b>:
@@ -246,4 +239,5 @@ The next stacked barplot will help us see the percentage of countries related to
    - There are many others factors involved in the CL assigned for every country that are not contemplated in this abstract, like seasonal variation due to geographic location, geographic topology … etc. All this conditions are possible subjects for future studies.
    
    - It would be useful to know if it's possible, per region, to reach the Perm_indicator by land redistribution. But without it, it could be possible to consider the world as an unity, that can distribute its resources equitably, with no need of territorial reordering.
+
 
