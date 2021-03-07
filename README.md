@@ -7,6 +7,10 @@ The main file is <b>'Abstract.md'</b>, which expose the analysis and the corresp
 
 Additionally, there are files with the source code for ordering, cleaning and processing the original data, in order to obtain a proper database to be used for the further analysis.
 
+### Repository Graphical Scheme:
+
+<img src="images/Scheme_lands_.png" alt="desc_table" title="title" width='1500px' height='300px'/>
+
 ### Repository Scheme:
 * <b>Lands</b>
   - Abstract.md: graphic analysis and conclusions.
