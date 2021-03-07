@@ -1,3 +1,7 @@
 Abstract.ipynb
 
 .ipynb_checkpoints
+*.ipynb
+code_data/*.ipynb
+code_images/*.ipynb
+code_images/.ipynb_checkpoints/*

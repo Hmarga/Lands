@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+geopandas = "*"
+jupyter = "*"
+notebook = "*"
+matplotlib = "*"
+cython = "*"
+shapely = "*"
+pykdtree = "*"
+pillow = "*"
+pyepsg = "*"
+scipy = "*"
+owslib = "*"
+fiona = "*"
+pyproj = "*"
+wheel = "*"
+numpy = "*"
+proj = "*"
+install = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
