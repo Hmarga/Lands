@@ -30,7 +30,7 @@
 
 
 Table 1. Lands classification.
-<br><a href="http://www.fao.org/ag/agn/nutrition/Indicatorsfiles/Agriculture.pdf">Refence of this table and<a href="code_images/desc_table.ipynb"> it's code</a>
+<br><a href="http://www.fao.org/ag/agn/nutrition/Indicatorsfiles/Agriculture.pdf">Refence of this table and<a href="code_images/desc_table.py"> it's code</a>
 <img src="images/desc_table.png" alt="desc_table" title="title" width='1500px' height='300px'/>
 
 
@@ -97,7 +97,7 @@ Table 4. Indicator values.
 
 <b>CL% Distribution per country.</b>
 
-As it's predictable, this distribution varies for every world region and country. Since every country has a different land area, the best way to compare this indicator between differents countries is to use the relative value of cultivable lands(CL); this means, the percentage of CL per country (CL%), as it is shown in the next map.<a href="code_images/CL.ipynb" target="_blank">(code of the image)</a>
+As it's predictable, this distribution varies for every world region and country. Since every country has a different land area, the best way to compare this indicator between differents countries is to use the relative value of cultivable lands(CL); this means, the percentage of CL per country (CL%), as it is shown in the next map.<a href="code_images/CL.py" target="_blank">(code of the image)</a>
 
 Figure II. World map of CL%.
 
@@ -117,7 +117,7 @@ An overall view show us that:
     
 <br>- Countries with large territory (like China, Canada or Brasil) are around <br>or under 20% of CL too.
 
-<br>- There is a huge region (Center of Africa, South of Europe and Est of Asia) <br>that has more countries with higher CL% values that the rest of the world, <br>highlighted with the blue ellipse.<a href="code_images/country_pie.ipynb" target="_blank">(code of the pie)</a></td><td style="text-align:left; font-size:14px; line-height: 1.5em"><br>Figure III. Cumuled countries per range of CL%.<img src="images/c_pie.png" alt="c_pie" width="400px" heigth="100px"/></td></tr>
+<br>- There is a huge region (Center of Africa, South of Europe and Est of Asia) <br>that has more countries with higher CL% values that the rest of the world, <br>highlighted with the blue ellipse.<a href="code_images/country_pie.py" target="_blank">(code of the pie)</a></td><td style="text-align:left; font-size:14px; line-height: 1.5em"><br>Figure III. Cumuled countries per range of CL%.<img src="images/c_pie.png" alt="c_pie" width="400px" heigth="100px"/></td></tr>
 </tbody>
 </table>
 
@@ -139,7 +139,7 @@ In equation mode:
 Let’s see how is this distribution per country/region.
 
 Figure IV. Density population and Density population respect to CL.
-<br><a href="code_images/hist_dens.ipynb">(code of the histograms below)</a>
+<br><a href="code_images/hist_dens.py">(code of the histograms below)</a>
 
 <img src="images/hist_dens.png" alt="hist_dens" title="hist_dens"/>
     
@@ -159,7 +159,7 @@ Hence, for both histogram, it is noticed that:
 Let's zoom in the 63 countries that are under the limit of the Perm_ind (histogram below of Family Density by CL).
 
 Figure V. Density population of CL.
-<br><a href="code_images/hist_dens_CL.ipynb" target="_blank">(code of the histogram below)</a>
+<br><a href="code_images/hist_dens_CL.py" target="_blank">(code of the histogram below)</a>
 <img src="images/hist_dens_CL.png" alt="hist_dens_CL" title="hist_dens_CL"/>
 
 From this we can see that:
@@ -190,7 +190,7 @@ Figure VI. Regions World Map.
 <br>- Europe & Central Asia
 <br>- East Asia & Pacific
 <br>- South Asia
-<br>- Antarctica (neglected for this study)<a href="code_images/world_map_w.ipynb" target="_blank">(code of the map)</a></td>
+<br>- Antarctica (neglected for this study)<a href="code_images/world_map_w.py" target="_blank">(code of the map)</a></td>
 <td><img src="images/world_map_w.png" alt="world_map"  width="1400px" heigth="400px"/></td></tr>
 </tbody>
 </table>
@@ -199,7 +199,7 @@ To show the HpF of every country per region, it's used a barplot. For each regio
 
 All the countries that are over the reference, have 1 or more Ha per family. For example, Australia (bars in light blue first to the left) has a bit more than 8 Ha per family; Kazakhstan a bit more than 6, Canada and South Sudan (S. Sudhan) just over 5 and 4 respectively. 
 
-Additionally,  a small square per region is added with two numbers. This is the quantity of countries over (up-arrow) and under (down-arrow) this reference, per region <a href="code_images/ha_ref_w.ipynb" target="_blank">(code of the barplot below)</a>.
+Additionally,  a small square per region is added with two numbers. This is the quantity of countries over (up-arrow) and under (down-arrow) this reference, per region <a href="code_images/ha_ref_w.py" target="_blank">(code of the barplot below)</a>.
 
 <br>Figure VII. Hectare per Family (HpF) per country.
 
@@ -219,7 +219,7 @@ The next stacked barplot will help us see the percentage of countries related to
 <table>
 <tbody>
 <tr style='background-color:white'><td style="text-align:justify; font-size:14px; line-height: 1.5em">Figure IIX. Percentage distribution of HpF per region.
-<br><a href="code_images/HpF_bars_w.ipynb" target="_blank">(code of the table below)</a>
+<br><a href="code_images/HpF_bars_w.py" target="_blank">(code of the table below)</a>
 <img src="images/HpF_bars_w.png" alt="HpF_bars_w" width='4000px' height='400px'/></td><td style="text-align:justify; font-size:14px; line-height: 1.5em">The green bars represents the percentage of countries that has more than 1 HpF; in orange, less. As it is visible, most of them has less than the Permaculture requirement; there is just one region that is over to this value: North America. Europe & Central Asia and Sub-Saharan Africa has almost half of this countries over, followed in descending order by Latin America & Caribbean, East Asia & Pacific, Middle East & North Africa and finally South Asia.
 <br>
 
