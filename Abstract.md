@@ -35,7 +35,7 @@ Table 1. Lands classification.
 
 
 Figure I. Percentage Land Distribution
-<br><a href="code_images/squari_dist.ipynb" target="_blank">(code of the image)</a>
+<br><a href="code_images/squari_dist.py" target="_blank">(code of the image)</a>
     
 <table>
 <tbody style="border: 0px"><tr><td font-size='2em'><img src="images/squari_dist.png" alt="squari_dist" title="title" width='1500px' height='300px'/></td><td style="font-size:13px; line-height: 1.6; text-align: justify;">Graphically, the distribution of this lands previously classified is showed in percentage (left graphic). 
@@ -50,7 +50,7 @@ There are theories that estimate the quantity of land used/needed (to meet their
 
 Table 2. Land use theories.
 <br><a href="https://www.primalsurvivor.net/much-land-need-self-sufficient/">Refence of this table</a>
-<br><a href="code_images/org_table.ipynb" target="_blank">(code of the table)</a>
+<br><a href="code_images/org_table.py" target="_blank">(code of the table)</a>
 <table>
 <tbody style="border: 0px">
 <tr><td><img src="images/org_table.png" alt="org_table" width='2500px' height='300px'%/> 
