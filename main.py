@@ -1,5 +1,5 @@
 from db_module import create_sqlite_database, create_table, table_definitions, insert_csv_to_table
-from faosts_lands import lands_inquire_set, list_to_csv
+from faosts import lands_inquire_set, list_to_csv
 import timeit
 import os
 
@@ -17,11 +17,11 @@ if __name__ == '__main__':
     file_path = ['data/area.csv', 'data/population.csv']
     table_name = [fp.split('/')[1].split('.csv') for fp in file_path]
     #table_name = file_path.split('/')[1].split('.csv')[0]
-    
-    for fp in file_path:
-        if not os.path.exists(fp):
-            #lands_inquire_set()
-            list_to_csv(lands_inquire_set(), fp)
+
+    # for fp in file_path:
+    #     if not os.path.exists(fp):
+    #         #lands_inquire_set()
+    #         list_to_csv(lands_inquire_set(), fp)
     
 #     # Create the tables
 #     table_info = table_definitions(file_path)
